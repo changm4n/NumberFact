@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "combineribs",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/nsoojin/CombineRIBs",
+      "state" : {
+        "revision" : "83af4c8b36e391f4123b8b649096672fecf2f2f8",
+        "version" : "2.1.0"
+      }
+    }
+  ],
+  "version" : 2
+}
