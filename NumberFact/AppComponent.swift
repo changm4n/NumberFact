@@ -8,11 +8,15 @@ import HTTPNetwork
 import HTTPNetworkImpl
 
 final class AppComponent: HomeDependency, DetailDependency {
+  // Platform
+  let httpNetwork: HTTPNetwork
+  
+  // Domain
+  let fetchFactUsecase: FetchFactusecase
+  
+  // Feature
   lazy var homeBuildable: HomeBuildable = HomeBuilder(dependency: self)
   lazy var detailBuildable: DetailBuildable = DetailBuilder(dependency: self)
-  
-  let fetchFactUsecase: FetchFactusecase
-  let httpNetwork: HTTPNetwork
   
   init() {
     let httpNetwork = HTTPNetworkImp(session: .shared)
