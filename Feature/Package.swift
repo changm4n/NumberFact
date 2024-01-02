@@ -34,7 +34,15 @@ let package = Package(
       ],
       path: "Home/Implementation"
     ),
-    
+    .testTarget(
+      name: "HomeTests",
+      dependencies: [
+        "Home",
+        "DetailTestSupport",
+        .product(name: "SharedPackage", package: "SharedPackage")
+      ],
+      path: "Home/Tests"
+    ),
     .target(
       name: "Detail",
       dependencies: [
@@ -49,6 +57,14 @@ let package = Package(
         .product(name: "SharedPackage", package: "SharedPackage"),
       ],
       path: "Detail/Implementation"
+    ),
+    .target(
+      name: "DetailTestSupport",
+      dependencies: [
+        "Detail",
+        .product(name: "SharedPackage", package: "SharedPackage"),
+      ],
+      path: "Detail/TestSupport"
     ),
   ]
 )
