@@ -37,7 +37,7 @@ let package = Package(
     .testTarget(
       name: "HomeTests",
       dependencies: [
-        "Home",
+        "HomeImpl",
         "DetailTestSupport",
         .product(name: "SharedPackage", package: "SharedPackage")
       ],

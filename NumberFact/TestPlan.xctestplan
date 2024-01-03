@@ -1,0 +1,24 @@
+{
+  "configurations" : [
+    {
+      "id" : "F4C435BC-44BC-4256-AB4E-DA3EA8248925",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:Feature",
+        "identifier" : "HomeTests",
+        "name" : "HomeTests"
+      }
+    }
+  ],
+  "version" : 1
+}

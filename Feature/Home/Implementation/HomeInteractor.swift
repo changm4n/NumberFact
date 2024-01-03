@@ -34,10 +34,6 @@ final class HomeInteractor: PresentableInteractor<HomePresentable>, HomeInteract
   
   // MARK: - HomePresentableListener
   
-  func presentableRemoved() {
-    
-  }
-  
   func incrButtonTapped() {
     self.count += 1
     self.presenter.updateCount(count: self.count)

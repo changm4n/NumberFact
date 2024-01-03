@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DDDE3ADC2B4554890013D583 /* TestPlan.xctestplan in Resources */ = {isa = PBXBuildFile; fileRef = DDECD5152B4540FD002DDD78 /* TestPlan.xctestplan */; };
 		EA4C573E2B42FD760052A2E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4C573D2B42FD760052A2E1 /* AppDelegate.swift */; };
 		EA4C57472B42FD770052A2E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA4C57462B42FD770052A2E1 /* Assets.xcassets */; };
 		EA4C574A2B42FD770052A2E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA4C57482B42FD770052A2E1 /* LaunchScreen.storyboard */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DDECD5152B4540FD002DDD78 /* TestPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = TestPlan.xctestplan; sourceTree = "<group>"; };
 		EA4C573A2B42FD760052A2E1 /* NumberFact.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NumberFact.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA4C573D2B42FD760052A2E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EA4C57462B42FD770052A2E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 		EA4C573C2B42FD760052A2E1 /* NumberFact */ = {
 			isa = PBXGroup;
 			children = (
+				DDECD5152B4540FD002DDD78 /* TestPlan.xctestplan */,
 				EA4C573D2B42FD760052A2E1 /* AppDelegate.swift */,
 				EA4C57602B4302B70052A2E1 /* AppComponent.swift */,
 				EA4C57462B42FD770052A2E1 /* Assets.xcassets */,
@@ -162,6 +165,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDDE3ADC2B4554890013D583 /* TestPlan.xctestplan in Resources */,
 				EA4C57572B4302160052A2E1 /* Domain in Resources */,
 				EA4C574A2B42FD770052A2E1 /* LaunchScreen.storyboard in Resources */,
 				EA4C57562B4302160052A2E1 /* SharedPackage in Resources */,

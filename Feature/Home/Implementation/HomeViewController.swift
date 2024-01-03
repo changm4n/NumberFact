@@ -3,7 +3,6 @@ import CombineRIBs
 import TinyConstraints
 
 protocol HomePresentableListener: AnyObject {
-  func presentableRemoved()
   func incrButtonTapped()
   func decrButtonTapped()
   func showFactButtonTapped()
@@ -44,13 +43,6 @@ final class HomeViewController: UIViewController, HomePresentable, HomeViewContr
     super.viewDidLoad()
     self.view.backgroundColor = .white
     self.setUI()
-  }
-  
-  override func viewDidDisappear(_ animated: Bool) {
-    super.viewDidDisappear(animated)
-    if self.isBeingRemoved {
-      self.listener?.presentableRemoved()
-    }
   }
   
   private func setUI() {
